@@ -1,0 +1,48 @@
+    CodePen Fork:
+https://codepen.io/DevonB/pen/QWNRdpv?editors=1100
+	Questions
+    1. What is Semantic HTML? It is the part of html is used to discribe the content of the content to the Web browser reading it
+    2. What is HTML used for? For building the foundation of the websites.
+    3. What is an attribute and where do we put it? It is a bit of code put in teh opening tag to give it attributes
+    4. What is the h1 tag used for? How many times should I use it on a page? h1 is used to discribe the most important heading. There should only be one.
+    5. Name two tags that have required attributes onclick onmouseover
+    6. What do we put in the head of our HTML document? <!DOCTYPE> html
+    7. What is an id? Id is an identifier that can only have one unique use.
+    8. What elements can I add an id to? All HTML elements 
+    9. How many times can I use the same id on a page? once
+    10. What is a class? Its an identifier that can be used multiple times on a page
+    11. What elements can I add a class to? All HTML elements
+    12. How many times can I use the same class on a page? as many as youd like.
+    13. How do I get my link to open in a new tab? target="_blank"
+    14. What is the alt attribute in the image tag used for?  img="#"
+    15. How do I reference an id? #id
+    16. What is the difference between a section and a div section is semantic HTML that tells the browser that it is a section. Div is not and just holds code.
+    17. What is CSS used for? To style the HTML
+    18. How to we select an element? Example - every h2 on the page in css refence it by element{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one Use a class if you need to hange multiple elements. and Id is used for a single element.
+    20. How do we select classes in CSS? .Class
+    21. How do we select a p element with a single class of “human””? p.human
+    22. What is a parent child selector? When would this be useful? it to find a element nested inside of another element.
+    23. How do you select all links within a div with the class of sidebar? .sidebar : a:link, .sidebar : a:visited 
+    24. What is a pseudo selector? a selector that define a state of an element
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters?letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform:
+    28. How do I add a 1px border around my div that is dotted and black? border-color:black border-width:1px;
+    29. How do I select everything on the page? ctrl+a
+    30. How do I write a comment in CSS?/* */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm there is no warring or undoing
+    34. Why should I use version control?  tracks change by each contributor and helping prevent concurrent work from conflicting
+    35. How often should I commit to github? when ever you finish a step
+    36. What is the command we would use to push our repo up to github?  git push
+    37. Walk me through Lambda's git flow. fork>Clone>branch>Edit>Add>Commit>Push>Pull request.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? inline element dont break to a new line blocked element do
+    2. What happens when an element is positioned absolutely? An element with absolute; is positioned relative to the nearest positioned reletive
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? By using the CSS Box methods
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default Inline <span>/<img> block<div><p><nav>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? box model is to control the spacing between centent on teh border and the space around boxed elements.
